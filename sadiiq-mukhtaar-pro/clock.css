@@ -1,0 +1,35 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.clock{
+    font-size: 50px;
+}
+
+.names{
+    font-size: 12px;
+}
+
+.hour{
+    margin-right: 1.5rem;
+}
+
+.minute{
+    margin-right: 1.5rem;
+}
+
+.hour-2{
+    margin-right: 6rem;
+}
+
+.minute-2{
+    margin-right: 5.8rem;
+}
+
+.colon{
+    margin-right: 1.5rem;
+}

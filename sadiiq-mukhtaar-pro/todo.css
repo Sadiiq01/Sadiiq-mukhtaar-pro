@@ -1,0 +1,30 @@
+.conatainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.conatainer .main input{
+    padding: 6px 5px 6px 5px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.conatainer .main input:focus{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+    background-color: rgb(255, 212, 212);
+    height: 7px;
+    padding: 14px;
+    margin-top: 12px;
+    border-radius: 6px;
+}

@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main{
+    width: 300px;
+}
+
+button{
+    background-color: #84ff3d;
+    border: none;
+    padding: 7px;
+    margin: 2px;
+    margin-top: 1rem;
+    border-radius:12px ;
+    cursor: pointer;
+}
+
+input{
+    width: 95%;
+    padding: 8px 6px;
+}
+
+.img{
+   width: 100%;
+   height: auto;
+   margin-top: 1rem;
+}
+
+.click.active{
+    display: none;
+}
+
+.cancel.active{
+    display: none;
+}
+
+.container-2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 170px;
+    padding: 12px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.container-2.active{
+    display: none;
+}
+
+.container.active{
+    display: none;
+}
